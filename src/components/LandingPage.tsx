@@ -7,7 +7,7 @@ const LandingPage: React.FC = () => {
     <div className="min-h-screen bg-white relative overflow-hidden">
       <Navigation />
 
-      <div className="fixed top-0 right-0 w-[40%] h-screen z-0">
+      <div className="hidden md:block fixed top-0 right-0 w-[40%] h-screen z-0">
         <div
           className="absolute inset-0 bg-mondrian-blue"
           style={{

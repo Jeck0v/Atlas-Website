@@ -6,7 +6,7 @@ const Navigation: React.FC = () => {
 
   return (
     <nav className="w-full bg-white fixed top-0 z-50 border-b-2 border-black">
-      <div className="max-w-7xl mx-auto px-6 md:px-8 py-4">
+      <div className="px-6 md:px-8 py-4">
         <ul className="flex items-center space-x-4 md:space-x-8">
           {menuItems.map((item, index) => (
             <li key={index}>
