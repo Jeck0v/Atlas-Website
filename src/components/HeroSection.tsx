@@ -103,7 +103,7 @@ const HeroSection: React.FC = () => {
         ref={subtitleRef}
         className="inline-block mb-4 px-3 py-1.5 md:px-4 md:py-2 bg-black text-white font-black text-xs md:text-sm tracking-widest w-fit -rotate-1"
       >
-        INFRASTRUCTURE PLATFORM
+        INFRASTRUCTURE TOOL
       </div>
 
       <h1
@@ -129,7 +129,7 @@ const HeroSection: React.FC = () => {
           ref={accroche2Ref}
           className="text-[14px] md:text-[16px] lg:text-[18px] text-[#1a1a1a] font-medium leading-relaxed"
         >
-          ATLAS is the orchestration platform that speaks human. Define your stack in readable DSL,
+          ATLAS is the orchestration tool that speaks human. Define your stack in readable DSL,
           deploy anywhere with one command, and get a gorgeous desktop interface for free.
         </p>
 
@@ -150,7 +150,7 @@ const HeroSection: React.FC = () => {
           boxShadow: '6px 6px 0px #000000',
         }}
       >
-        Try it now →
+        Try it now
       </button>
     </div>
   );
